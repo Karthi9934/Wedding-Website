@@ -10,7 +10,7 @@ export const stories = [
     date: '15 December 2019',
     description:
       'We came to know about each other from my dad friend. Once our horoscopes got matched our families met to see compatibility.'
-      image: '',
+      
   },
   {
     title: 'First Interaction',
