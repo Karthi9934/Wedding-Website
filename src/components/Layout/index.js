@@ -11,7 +11,7 @@ function MainLayout({ children }) {
   return (
     <Fragment>
       <Helmet>
-        <title>Priya ❤️ Karthik Wedding</title>
+        <title>Karthi ❤️ Priya Wedding</title>
 
         {/* Favicon */}
         <link rel="icon" type="image/png" href={Favicon} />

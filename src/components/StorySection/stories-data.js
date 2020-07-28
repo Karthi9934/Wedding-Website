@@ -1,8 +1,8 @@
-import ImgKembaliBerjumpa from '@assets/images/p-kembali-berjumpa.jpg';
-import ImgJakartaKroasia from '@assets/images/p-jakarta-kroasia.jpg';
-import ImgBoarding from '@assets/images/p-boarding-smg.jpg';
-import ImgKembaliKeIndonesia from '@assets/images/p-kembali-ke-indonesia.jpg';
-import ImgNdodokLawang from '@assets/images/p-ndodok-lawang.jpg';
+import Casual from '@assets/images/19.jpeg';
+import Outing from '@assets/images/18.jpeg';
+import Coffee from '@assets/images/first.jpeg';
+import Engagement from '@assets/images/4.jpg';
+
 
 export const stories = [
   {
@@ -10,7 +10,7 @@ export const stories = [
     date: '15 December 2019',
     description:
       'We came to know about each other from my dad friend. Once our horoscopes got matched our families met to see compatibility.',
-      image: ImgKembaliBerjumpa,
+      image: Casual,
   },
   {
     title: 'First Interaction',
@@ -18,20 +18,20 @@ export const stories = [
     description:
       'It was through her cousin that we first spoke through a conference call and there after it was only calls through all channels:)',
 
-      image: ImgKembaliBerjumpa,
+      image: Coffee,
   },
   {
     title: 'First Meeting',
     date: '20 January 2020',
     description:
       'After unlimited video calls of knowing each other, then came the day where we finally met each other',
-      image: ImgJakartaKroasia,
+      image: Outing,
   },
   {
     title: 'Engagement',
     date: '5 February 2020',
     description:
       'We are engaged',
-      image: ImgBoarding,
+      image: Engagement,
   },
 ];

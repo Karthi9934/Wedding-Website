@@ -37,7 +37,7 @@ function LocationSection() {
                 allowFullScreen
                 aria-hidden="false"
                 tabIndex="0"
-                title="Google Maps - Priya & Karthi Wedding Party"
+                title="Google Maps - Karthi & Priya Wedding Party"
               ></iframe>
             </div>
           </div>

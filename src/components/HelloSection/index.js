@@ -7,7 +7,7 @@ import Groom from '@assets/images/Karthi.jpg';
 import { styWrapper } from './styles';
 
 function HelloSection({ guestName }) {
-  const finalSubtitle = guestName ? '23 August 2020, Bhel Anna  nagar, Ranipet' : 'Sunday, 23 August 2020';
+  const finalSubtitle = guestName ? '23 August 2020, Bhel Anna  nagar, Ranipet' : 'August 23rd, 2020 Ranipet';
 
   return (
     <Fragment>
@@ -15,10 +15,10 @@ function HelloSection({ guestName }) {
         <div className="container">
           <div className="row">
             <div className="col-md-8 col-md-offset-2 text-center fh5co-heading">
-              <h2 className="main-font">Hi</h2>
+              <h2 className="main-font">Hello!</h2>
               <h3 className="sub-title hs">{finalSubtitle}</h3>
               <p className="info">
-                We wish you to be here to celebrate our big day
+                We invited you to celebrate our wedding
               </p>
             </div>
           </div>
@@ -30,7 +30,7 @@ function HelloSection({ guestName }) {
               <div className="desc-groom">
                 <h3 className="main-font">Priyadarshini</h3>
                 <p className="parent-name parent-name__top">
-                  Raghu Kumar <br />& Devi
+                  Our Beautiful Bride
                 </p>
               </div>
             </div>
@@ -47,34 +47,15 @@ function HelloSection({ guestName }) {
               <div className="desc-bride">
                 <h3 className="main-font">Karthikeyan</h3>
                 <p className="parent-name">
-                  Sekar <br />& Indiragandhi
+                  Our Humble Groom
                 </p>
               </div>
             </div>
           </div>
         </div>
       </div>
-      {!guestName && (
-        <div id="fh5co-couple" className="fh5co-section-gray" css={styWrapper}>
-          <div className="container">
-            <div className="row">
-              <div className="col-md-8 col-md-offset-2 text-center fh5co-heading">
-                <h2 className="main-font">Covid-19</h2>
-                <p className="info">
-                  Regarding the current pandemic conditions, the continuity of our event refers to the guidelines
-                   Ministry of Health, which imposes distance restrictions and restrictions on the number of
-                   invited guests.
-                </p>
-                <p className="info">
-                  Therefore, with all humility, we apologize if you have not been able to invite you / i
-                   on our happy day. If prayers from you are more than enough for us.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      )}
-    </Fragment>
+	 </Fragment>
+      
   );
 }
 

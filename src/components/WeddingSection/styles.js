@@ -1,5 +1,5 @@
 import { css } from '@emotion/core';
-import Background from '@assets/images/bg-wedding.jpg';
+import Background from '@assets/images/3.jpg';
 
 export const styWrapper = css`
   background-image: url(${Background});
@@ -9,7 +9,7 @@ export const styWrapper = css`
   min-height: 70vh;
   color: #fff !important;
 
-  .bismillah {
+  .box {
     color: #fff !important;
     font-size: 16px !important;
     font-family: sans-serif;
@@ -56,7 +56,7 @@ export const styButtonWrapper = css`
     color: #fff;
     font-weight: 500px;
     border-radius: 24px;
-    background: #f14e95;
+    background:  #3b5998;
     padding: 8px 16px;
   }
 

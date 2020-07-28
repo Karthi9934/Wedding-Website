@@ -2,24 +2,25 @@ import React, { Fragment } from 'react';
 import { bool } from 'prop-types';
 
 import WeddingInfoBox from './WeddingInfoBox';
-import IconIg from './assets/instagram.png';
+import IconIg from './assets/fb.png';
 import { styWrapper, styButtonWrapper } from './styles';
 
 function WeddingSection({ isAnonymGuest }) {
   const renderGuestInfo = () => {
     return (
       <Fragment>
-        <div className="col-md-8 col-md-offset-4">
-          <WeddingInfoBox title="Wedding" time="06:00 - 07:30 AM" date="Monday, 24 August 2020" />
+        <div className="col-md-8 col-md-offset-2">
+          <WeddingInfoBox title="Reception" time="06:30 PM - 09:00 PM" date="Sunday, 23 August 2020" description="Groom House" />
+		  <WeddingInfoBox title="Wedding" time="06:00 AM - 07:30 AM" date="Monday, 24 August 2020" description="Groom House" />
         </div>
         <div className="row">
           <div className="col-md-12">
             <p className="text__live">We are going live in facebook</p>
-            <a href="https://www.instagram.com/dindadipoyono/" target="_blank" rel="noreferrer">
+            <a href="https://www.facebook.com/karthi.sikp" target="_blank" rel="noreferrer">
               <div css={styButtonWrapper}>
                 <div className="img__wrapper">
                   <img src={IconIg} alt="Live FB" />
-                  <span>@dindadipoyono</span>
+                  <span>@karthi</span>
                 </div>
               </div>
             </a>
@@ -36,9 +37,7 @@ function WeddingSection({ isAnonymGuest }) {
         <div className="container">
           <div className="row">
             <div className="col-md-8 col-md-offset-2 text-center fh5co-heading">
-//              <span className="bismillah"></span>
               <h2 className="main-font main-font__wedding">Wedding Ceremony</h2>
-//              <span className="sub-title sub-title__wedding">Insha Allah akan diselenggarakan pada:</span>
             </div>
           </div>
           <div className="row">
@@ -54,10 +53,6 @@ function WeddingSection({ isAnonymGuest }) {
                 />
                 <WeddingInfoBox
                   title="Wedding Ceremony"
-//                  time="Sesuai jadwal undangan di e-ticket "
-//                  date="Sabtu, 03 Oktober 2020"
-//                  description="HARRIS Hotel Sentraland, Semarang"
-//                  mobileDescription="HARRIS Hotel Sentraland, Semarang"
                 />
               </div>
             )}
