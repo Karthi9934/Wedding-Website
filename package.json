@@ -11,6 +11,7 @@
     "start": "npm run develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
+	"deploy":"gatsby build --prefix-paths && gh-pages -d public",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
   "dependencies": {
@@ -21,6 +22,7 @@
     "gatsby-plugin-emotion": "^4.3.2",
     "gatsby-plugin-eslint": "^2.0.8",
     "gatsby-plugin-react-helmet": "^3.3.2",
+    "gh-pages": "^3.1.0",
     "prop-types": "^15.7.2",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
