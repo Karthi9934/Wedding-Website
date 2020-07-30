@@ -10,12 +10,12 @@ function FooterSection({ isAnonymGuest }) {
           <div className="row copyright">
             <div className="col-md-12 text-center">
               <p>
-                <small className="block"><b> Precautions to stop the spread of #COVID-19!!! </b></small>
-				<small className="block">
+                <big className="block"><b> Precautions to stop the spread of #COVID-19!!! </b></big>
+				<big className="block">
 					<li> Wear a mask </li>
 					<li> Disinfect your hands upon entry </li>
 					<li> Maintain social Distancing </li>
-				</small>
+				</big>
               </p>
             </div>
           </div>

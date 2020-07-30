@@ -2,7 +2,7 @@ import React, { Fragment } from 'react';
 import { Helmet } from 'react-helmet';
 import { node } from 'prop-types';
 
-import Favicon from '@assets/images/dinda-indra.png';
+import Favicon from '@assets/images/karthik-priya.png';
 import '@assets/css/icomoon.css';
 import '@assets/css/bootstrap.css';
 import '@assets/css/style.css';
@@ -11,7 +11,7 @@ function MainLayout({ children }) {
   return (
     <Fragment>
       <Helmet>
-        <title>Karthi ❤️ Priya Wedding</title>
+        <title>Karthikeyan ❤️ Priyadarshini Wedding</title>
 
         {/* Favicon */}
         <link rel="icon" type="image/png" href={Favicon} />
