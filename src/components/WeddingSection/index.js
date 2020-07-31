@@ -9,9 +9,8 @@ function WeddingSection({ isAnonymGuest }) {
   const renderGuestInfo = () => {
     return (
       <Fragment>
-        <div className="col-md-8 col-md-offset-2">
-          <WeddingInfoBox title="Reception" time="06:30 PM - 09:00 PM" date="Sunday, 23 August 2020" description="Groom's House" />
-		  <WeddingInfoBox title="Wedding" time="06:00 AM - 07:30 AM" date="Monday, 24 August 2020" description="Groom's House" />
+        <div className="col-md-8 col-md-offset-4">
+          <WeddingInfoBox title="Wedding" time="06:00 AM - 07:30 AM" date="Monday, 24 August 2020" description="Groom's House" />
         </div>
         <div className="row">
           <div className="col-md-12">
@@ -45,15 +44,13 @@ function WeddingSection({ isAnonymGuest }) {
             {!isAnonymGuest && (
               <div className="col-md-10 col-md-offset-1">
                 <WeddingInfoBox
-                  title="Reception"
-                  time="06:30 - 08:00 PM"
-                  date="Sunday, 23 August 2020"
-                  description="Groom House"
-                  mobileDescription="Groom House"
+                  title="Wedding"
+                  time="06:00 AM - 07:30 AM"
+                  date="Monday, 24 August 2020"
+                  description="Groom's House"
+                  mobileDescription="Groom's House"
                 />
-                <WeddingInfoBox
-                  title="Wedding Ceremony"
-                />
+                
               </div>
             )}
           </div>
