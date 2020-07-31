@@ -10,12 +10,12 @@ function WeddingSection({ isAnonymGuest }) {
     return (
       <Fragment>
         <div className="col-md-8 col-md-offset-2">
-          <WeddingInfoBox title="Reception" time="06:30 PM - 09:00 PM" date="Sunday, 23 August 2020" description="Groom House" />
-		  <WeddingInfoBox title="Wedding" time="06:00 AM - 07:30 AM" date="Monday, 24 August 2020" description="Groom House" />
+          <WeddingInfoBox title="Reception" time="06:30 PM - 09:00 PM" date="Sunday, 23 August 2020" description="Groom's House" />
+		  <WeddingInfoBox title="Wedding" time="06:00 AM - 07:30 AM" date="Monday, 24 August 2020" description="Groom's House" />
         </div>
         <div className="row">
           <div className="col-md-12">
-            <p className="text__live">We are going live in facebook</p>
+            <p className="text__live">We are going live in facebook:</p>
             <a href="https://www.facebook.com/karthi.sikp" target="_blank" rel="noreferrer">
               <div css={styButtonWrapper}>
                 <div className="img__wrapper">
