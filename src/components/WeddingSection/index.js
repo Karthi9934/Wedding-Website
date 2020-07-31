@@ -42,7 +42,7 @@ function WeddingSection({ isAnonymGuest }) {
           <div className="row">
             {isAnonymGuest && renderGuestInfo()}
             {!isAnonymGuest && (
-              <div className="col-md-10 col-md-offset-1">
+              <div className="col-md-10 col-md-offset-3">
                 <WeddingInfoBox
                   title="Wedding"
                   time="06:00 AM - 07:30 AM"
@@ -50,8 +50,20 @@ function WeddingSection({ isAnonymGuest }) {
                   description="Groom's House"
                   mobileDescription="Groom's House"
                 />
-                
-              </div>
+                <div className="row">
+			<div className="col-md-12">
+            <p className="text__live">We are going live in facebook:</p>
+            <a href="https://www.facebook.com/karthi.sikp" target="_blank" rel="noreferrer">
+			<div css={styButtonWrapper}>
+                <div className="img__wrapper">
+                  <img src={IconIg} alt="Live FB" />
+                  <span>@Karthik</span>
+                </div>
+			</div>
+            </a>
+			</div>
+		    </div>
+			</div>
             )}
           </div>
         </div>

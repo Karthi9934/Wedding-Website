@@ -7,7 +7,7 @@ import Groom from '@assets/images/Karthi.jpg';
 import { styWrapper } from './styles';
 
 function HelloSection({ guestName }) {
-  const finalSubtitle = guestName ? '24 August 2020, Bhel Anna  nagar, Ranipet' : 'August 24th, 2020 Ranipet';
+  const finalSubtitle = guestName ? 'August 24th, 2020 Ranipet' : 'August 24th, 2020 Ranipet';
 
   return (
     <Fragment>
