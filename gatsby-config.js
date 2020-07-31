@@ -6,7 +6,7 @@
 
 module.exports = {
   /* Your site config here */
-  pathPrefix: `/Wedding-Website`,
+  
   plugins: [
     `gatsby-plugin-react-helmet`,
     'gatsby-plugin-eslint',
