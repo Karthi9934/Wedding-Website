@@ -18,7 +18,7 @@ function HelloSection({ guestName }) {
               <h2 className="main-font">Hello!</h2>
               <h3 className="sub-title hs">{finalSubtitle}</h3>
               <p className="info">
-                We invited you to celebrate our wedding
+                Together with our families, We invite you to share this day of happiness
               </p>
             </div>
           </div>
