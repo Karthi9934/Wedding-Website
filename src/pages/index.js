@@ -12,7 +12,6 @@ import LocationSection from '@components/LocationSection';
 import StorySection from '@components/StorySection';
 import PhotoSection from '@components/PhotoSection/Loadable';
 import FooterSection from '@components/FooterSection';
-import CovidSection from '@components/Covid19';
 import FloatingMusic from '@components/FloatingMusic/Loadable';
 
 function Home({ location }) {
@@ -34,7 +33,6 @@ function Home({ location }) {
       <Fragment>
         <HelloSection guestName={firstName} />
         <WeddingSection isAnonymGuest={isAnonymGuest} />
-        {isInvitation && <CovidSection />}
         {isInvitation && <LocationSection />}
         <StorySection />
         <PhotoSection />

@@ -1,18 +1,23 @@
-import Gallery1 from '@assets/images/1.jpg';
-import Gallery2 from '@assets/images/2.jpg';
-import Gallery3 from '@assets/images/3.jpg';
-import Gallery4 from '@assets/images/4.jpg';
-import Gallery5 from '@assets/images/5.jpg';
-import Gallery6 from '@assets/images/6.jpg';
-import Gallery7 from '@assets/images/7.jpg';
-import Gallery8 from '@assets/images/8.jpg';
-import Gallery9 from '@assets/images/9.jpg';
-import Gallery10 from '@assets/images/10.jpg';
-import Gallery11 from '@assets/images/11.jpg';
-import Gallery12 from '@assets/images/12.jpg';
-import Gallery13 from '@assets/images/13.jpg';
-import Gallery14 from '@assets/images/14.jpg';
-import Gallery15 from '@assets/images/15.jpg';
+import Gallery1 from '@assets/images/1.jpeg';
+import Gallery2 from '@assets/images/3.jpeg';
+import Gallery3 from '@assets/images/5.jpeg';
+import Gallery4 from '@assets/images/4.jpeg';
+import Gallery5 from '@assets/images/2.jpeg';
+import Gallery6 from '@assets/images/6.jpeg';
+import Gallery7 from '@assets/images/7.jpeg';
+import Gallery8 from '@assets/images/8.jpeg';
+import Gallery9 from '@assets/images/9.jpeg';
+import Gallery10 from '@assets/images/30.jpeg';
+import Gallery11 from '@assets/images/11.jpeg';
+import Gallery12 from '@assets/images/12.jpeg';
+import Gallery13 from '@assets/images/31.jpeg';
+import Gallery14 from '@assets/images/15.jpeg';
+import Gallery15 from '@assets/images/17.jpeg';
+import Gallery16 from '@assets/images/20.jpeg';
+import Gallery17 from '@assets/images/21.jpeg';
+import Gallery18 from '@assets/images/22.jpeg';
+import Gallery19 from '@assets/images/21.jpeg';
+import Gallery20 from '@assets/images/21.jpeg';
 
 export const photos = [
   {
@@ -75,4 +80,25 @@ export const photos = [
     original: Gallery15,
     thumbnail: Gallery15,
   },
-];
+  {
+    original: Gallery16,
+    thumbnail: Gallery16,
+  },
+  {
+    original: Gallery17,
+    thumbnail: Gallery17,
+  },
+  {
+    original: Gallery18,
+    thumbnail: Gallery18,
+  },
+  {
+    original: Gallery19,
+    thumbnail: Gallery19,
+  },
+  {
+    original: Gallery20,
+    thumbnail: Gallery20,
+  },
+  
+ ];

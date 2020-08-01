@@ -18,18 +18,17 @@ function LocationSection() {
                   rel="noreferrer"
                   style={{ color: '#828282' }}
                 >
-                  <strong>Groom House</strong>
+                  <strong>Groom's House</strong>
                 </a>{' '}
                 <br />
-                7/128 Bhel Annanagar, Seekarajapuram post, Thiruvalam, <br />
-                Ranipet 632515
+                
               </p>
             </div>
           </div>
           <div className="row">
             <div className="col-md-10 col-md-offset-1">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d788.4135738758104!2d79.2786132263639!3d12.979911945069432!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bad498dd284704f%3A0x726e15a83282a015!2sBhel%20Anna%20Nagar%2C%20Tamil%20Nadu%20632406!5e1!3m2!1sen!2sin!4v1595781104668!5m2!1sen!2sin"
+                src=""
                 width="100%"
                 height="450"
                 frameBorder="0"
