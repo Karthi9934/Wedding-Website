@@ -9,7 +9,7 @@ export const stories = [
     title: 'Family Meeting',
     date: '15 December 2019',
     description:
-      "We came to know about each other from my dad's friend. Both our families met once and they never could have possibly believed that the thought they had that day would change our lives for ever! All they wished for is to strengthen the family bonds! ",
+      "We came to know about each other from my dad's friend. Both our families met once and they never could have possibly believed that the thought they had that day would change our lives for ever! All they wished for was to strengthen the family bonds! ",
       image: Casual,
   },
   {

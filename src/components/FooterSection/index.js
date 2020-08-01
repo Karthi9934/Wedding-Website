@@ -14,7 +14,7 @@ function FooterSection({ isAnonymGuest }) {
 				<big className="block">
 					<li> Wear a mask </li>
 					<li> Disinfect your hands upon entry </li>
-					<li> Maintain social Distancing </li>
+					<li> Maintain social distancing </li>
 				</big>
               </p>
             </div>
