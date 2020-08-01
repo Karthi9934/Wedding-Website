@@ -9,14 +9,14 @@ export const stories = [
     title: 'Family Meeting',
     date: '15 December 2019',
     description:
-      'We came to know about each other from my dad friend. Once our horoscopes got matched our families met to see compatibility.',
+      'We came to know about each other from my dad friend. Our both families met once and they never could have possibly believed that the thought they had that day would change our lives for ever! All they wished for is to strengthen the family bonds! ',
       image: Casual,
   },
   {
     title: 'First Interaction',
     date: '19 December 2019',
     description:
-      'It was through her cousin that we first spoke through a conference call and there after it was only calls through all channels 😊',
+      'A big thanks to her cousin, who made our first interaction possible and today we are here inviting you to our wedding! ',
 
       image: Coffee,
   },
