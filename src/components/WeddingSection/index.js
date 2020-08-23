@@ -14,8 +14,8 @@ function WeddingSection({ isAnonymGuest }) {
         </div>
         <div className="row">
           <div className="col-md-12">
-            <p className="text__live">We are going live on facebook:</p>
-            <a href="https://www.facebook.com/karthi.sikp" target="_blank" rel="noreferrer">
+            <p className="text__live">We are going live on:</p>
+            <a href="http://ivb7webcaster.com/rameshdigitalstudios.aspx" target="_blank" rel="noreferrer">
               <div css={styButtonWrapper}>
                 <div className="img__wrapper">
                   <img src={IconIg} alt="Live FB" />
@@ -52,8 +52,8 @@ function WeddingSection({ isAnonymGuest }) {
                 />
                 <div className="row">
 			<div className="col-md-12">
-            <p className="text__live"> We are going live on facebook:</p>
-            <a href="https://www.facebook.com/karthi.sikp" target="_blank" rel="noreferrer">
+            <p className="text__live"> We are going live on :</p>
+            <a href="http://ivb7webcaster.com/rameshdigitalstudios.aspx" target="_blank" rel="noreferrer">
 			<div css={styButtonWrapper}>
                 <div className="img__wrapper">
                   <img src={IconIg} alt="Live FB" />
